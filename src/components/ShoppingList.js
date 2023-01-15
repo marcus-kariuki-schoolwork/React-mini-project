@@ -5,7 +5,7 @@ function ShoppingList({ items }) {
   const [selectedCategory, setselectedCategory]= useState("All");
 
   function handleChange(e){
-    selectedCategory(e.target.value);
+    setselectedCategory(e.target.value);
 
   }
 
